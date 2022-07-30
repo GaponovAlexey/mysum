@@ -1,8 +1,5 @@
-package main
+package mysum
 
-import "fmt"
-
-func main() {
-	fmt.Println("da")
-
+func Sum(x, y int) int {
+	return x * y
 }
